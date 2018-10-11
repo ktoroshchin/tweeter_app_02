@@ -1,3 +1,4 @@
+
 .new-tweet {
   width: 380px;
   border: solid black 2px;
@@ -98,7 +99,6 @@
   visibility: hidden;
   align-self: center;
 }
-
 
 .fas.fa-flag,.fas.fa-recycle,.fas.fa-heart {
   margin: 3px;
