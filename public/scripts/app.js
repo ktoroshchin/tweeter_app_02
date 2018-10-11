@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-  loadTweets()
+  loadTweets();
 
   function createTweetElement(tweet) {
     var $article = $("<article>").addClass('posted-tweet');
@@ -43,10 +43,10 @@ $(document).ready(function() {
       $('.initial-error')
         .slideDown()
         .text('Tweet is too long');
-    } else if ($('#textarea').val().length === 0 || $.trim($('#textarea').val()) === "") {
+    } else if($('#textarea').val().length === 0 || $.trim($('#textarea').val()) === "") {
       $('.initial-error')
         .slideDown()
-        .text('Please tweet something')
+        .text('Please tweet something');
     } else {
       $('.initial-error').hide();
       $('#counter').text('140');
@@ -63,13 +63,12 @@ $(document).ready(function() {
     $('#textarea').focus();
   });
 
-function loadTweets() {
-  $.ajax('/tweets', { method: 'GET'})
-  .then(function (arrayOfTweets) {
-    console.log('Success: ', arrayOfTweets);
-    $('#posted-tweet-main').empty();
-    renderTweets(arrayOfTweets);
-  });
-}
-
+  function loadTweets() {
+    $.ajax('/tweets', { method: 'GET'})
+    .then(function (arrayOfTweets) {
+      console.log('Success: ', arrayOfTweets);
+      $('#posted-tweet-main').empty();
+      renderTweets(arrayOfTweets);
+    });
+  }
 });
