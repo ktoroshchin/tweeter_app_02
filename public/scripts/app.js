@@ -49,10 +49,11 @@ $(document).ready(function() {
         .text('Please tweet something')
     } else {
       $('.initial-error').hide();
+      $('#counter').text('140');
       $.ajax('/tweets', { method: 'POST', data: $(this).serialize() })
       .then(function (response) {
-        console.log('Success: ', response);
         loadTweets(response);
+        $('#textarea').empty();
       });
     }
   });
