@@ -8,7 +8,7 @@ Tweeter is a simple, single-page Twitter clone.
 
 ### Screenshot home page, textarea is hidden
 !["Screenshot of submit form toggle feature"](https://github.com/ktoroshchin/tweeter_app_02/blob/master/docs/Compose%20field%20hidden.png)
-### Screenshot of error message if textarea length is empty
+### Screenshot of error message if textarea is empty
 !["Screenshot of error message if textarea is empty"](https://github.com/ktoroshchin/tweeter_app_02/blob/master/docs/error%20textarea%20empty.png)
 ### Screenshot of error message if textarea length > 140 characters
 !["Screenshot of error message if textarea length > 140 characters"](https://github.com/ktoroshchin/tweeter_app_02/blob/master/docs/tweet%20is%20too%20long.png)
