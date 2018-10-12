@@ -1,6 +1,32 @@
 @media only screen and (min-width: 1024px) and (max-width: 1366px)  {
   .new-tweet {
-     width: 94%;
+     width: 90%;
+     margin: auto;
+  }
+  #textarea {
+    width: 100%;
+  }
+  body {
+    width: 100%;
+  }
+  #nav-bar {
+    width: 100%;
+  }
+  .compose-button-align {
+    margin-right: 0px;
+  }
+  .container {
+    width: 60%;
+
+  }
+  #posted-tweet-main {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)  {
+  .new-tweet {
+     width: 91%;
   }
   #textarea {
     width: 100%;
@@ -23,18 +49,19 @@
 }
 
 
-
-@media only screen and (min-width: 320px) and (max-width: 568px) {
+@media screen and (min-width: 320px) and (max-width: 567px) {
   .new-tweet {
-    width: 70%;
-    margin: 1em auto
+    width: 90%;
+    margin: 0 auto;
   }
   #textarea {
     width: 100%;
   }
-  body {
-    width: 120%;
+
+  .user-name {
+    font-size: 1em;
   }
+
   #nav-bar {
     width: 100%;
     padding: 0;
@@ -46,11 +73,10 @@
   margin-top: 7px;
 }
   .container {
-    width: 118%;
-    margin: 1px;
+    width: 100%;
   }
   #posted-tweet-main {
-    width: 70%;
+    width: 90%;
     margin: 1em auto;
   }
   .posted-tweet {
@@ -60,7 +86,8 @@
     float: right;
 }
   .username-and-nickname {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .article-textarea {
     margin-top: 15px;
@@ -70,4 +97,5 @@
 @media only screen and (min-width: 568px) and (max-width: 700px) {
   .compose-button {
     margin-right: 45px;
+  }
 }
