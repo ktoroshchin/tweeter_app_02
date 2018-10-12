@@ -1,0 +1,42 @@
+
+@import '_colorsVariables.scss';
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+  top: 0px;
+  margin: 0px;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background-color: $lightGreen;
+  padding:0 2em;
+
+  .logo {
+    height: 80px;
+    width: 80px;
+  }
+
+  .header {
+    margin-top: 25px;
+    color: $white;
+    font-size: 30px;
+  }
+
+  .compose-button-align{
+    margin-left: auto;
+
+    .compose-button{
+      background-color: $white;
+      color: $lightGreen;
+      height: 40px;
+      border-radius: 5px;
+      margin-left: 40px;
+    }
+
+    .compose-button:hover{
+      background-color: $lightGreen;
+      color: $white;
+    }
+  }
+}

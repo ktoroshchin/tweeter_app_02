@@ -21,6 +21,7 @@ Tweeter is a simple, single-page Twitter clone.
 - md5
 - nodemon
 - node.js
+- moment
 
 
 1. Install dependencies using the `npm install` command.
