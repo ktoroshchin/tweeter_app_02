@@ -1,0 +1,73 @@
+@media only screen and (min-width: 1024px) and (max-width: 1366px)  {
+  .new-tweet {
+     width: 94%;
+  }
+  #textarea {
+    width: 100%;
+  }
+  body {
+    width: 100%;
+  }
+  #nav-bar {
+    width: 100%;
+  }
+  .compose-button-align {
+    margin-right: 45px;
+  }
+  .container {
+    width: 88%;
+  }
+  #posted-tweet-main {
+    width: 100%;
+  }
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  .new-tweet {
+    width: 70%;
+    margin: 1em auto
+  }
+  #textarea {
+    width: 100%;
+  }
+  body {
+    width: 120%;
+  }
+  #nav-bar {
+    width: 100%;
+    padding: 0;
+  }
+
+.compose-button {
+  margin-left: 3px;
+  margin-right: 5px;
+  margin-top: 7px;
+}
+  .container {
+    width: 118%;
+    margin: 1px;
+  }
+  #posted-tweet-main {
+    width: 70%;
+    margin: 1em auto;
+  }
+  .posted-tweet {
+    margin: 1em auto;
+  }
+  .handle {
+    float: right;
+}
+  .username-and-nickname {
+    display: block;
+  }
+  .article-textarea {
+    margin-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 700px) {
+  .compose-button {
+    margin-right: 45px;
+}
