@@ -94,6 +94,17 @@
   padding: 8px;
 }
 
+.submit-button:hover {
+    background-color: #00a087;
+    color: white;
+    border-radius: 5px;
+}
+
+.submit-button {
+    border-radius: 5px;
+}
+
+
 .icons {
   color: #26b2ad;
   visibility: hidden;

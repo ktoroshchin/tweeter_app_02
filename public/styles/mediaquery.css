@@ -26,7 +26,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1023px)  {
   .new-tweet {
-     width: 91%;
+     width: 92%;
   }
   #textarea {
     width: 100%;
